@@ -13,37 +13,7 @@ family = "JetBrainsMono Nerd Font"
 [font.bold_italic]
 family = "JetBrainsMono Nerd Font"
 
-[colors.primary]
-background = "#000000"
-foreground = "#cdd6f4"
-
-[colors.cursor]
-text = "#000000"
-cursor = "#ffffff"
-
-[colors.selection]
-text = "CellForeground"
-background = "#44475a"
-
-[colors.normal]
-black   = "#282828"
-red     = "#f43753"
-green   = "#c9d05c"
-yellow  = "#ffc24b"
-blue    = "#b3deef"
-magenta = "#d3b987"
-cyan    = "#73cef4"
-white   = "#eeeeee"
-
-[colors.bright]
-black   = "#4c4c4c"
-red     = "#f43753"
-green   = "#c9d05c"
-yellow  = "#ffc24b"
-blue    = "#89b4fa"
-magenta = "#f5c2e7"
-cyan    = "#73cef4"
-white   = "#eeeeee"
-
+[general]
+import = ["themes/nord.toml"]
 [env]
 TERM = "xterm-256color"
